@@ -28,7 +28,7 @@ class Config(object):
     
     DB_NAME = "BroadcastBot" #str(os.environ.get("DB_NAME", ""))
     
-    LOG_CHANNEL = -839328944#int(os.environ.get("LOG_CHANNEL", ""))
+    LOG_CHANNEL = -1001958949068#int(os.environ.get("LOG_CHANNEL", ""))
 
     BROADCAST_AS_COPY = False #bool(os.environ.get("BROADCAST_AS_COPY", True))
 
