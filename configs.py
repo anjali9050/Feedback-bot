@@ -12,7 +12,7 @@ class Config(object):
 
     AUTH_USERS = set(int(x) for x in "1864861524".split())#set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
 
-    START = "Start text"#str(os.environ.get("START_TEXT", ""))
+    START = "Hey I'm a simple Telegram bot that can broadcast messages and media to the bot subscribers. Made by @BABA1920Prediction."#str(os.environ.get("START_TEXT", ""))
 
     HELP = "Help text" #str(os.environ.get("HELP_TEXT", ""))
 
